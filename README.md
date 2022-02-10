@@ -12,16 +12,16 @@ Doccano is an open source application designed to make the text annotation or te
 
 Doccano can be used for a range of text annotation, text classification and labeling tasks for Natural Language Processing projects. These include sequence labeling for Named Entity Recognition (NER), part-of-speech (POS) tagging, and semantic role labeling; Sequence to Sequence tasks, such as string translation; Document Classification, for things like sentiment analysis, and even speech to text audio classification.
 
-# To install doccano, simply run:
+#To install doccano, simply run:
 pip install doccano
 
 After installation, run the following commands:
 
-# Initialize database.
+#Initialize database.
 doccano init
-# Create a super user.
+#Create a super user.
 doccano createuser --username admin --password pass
-# Start a web server.
+#Start a web server.
 doccano webserver --port 8000
 
 In another terminal, run the following command:
