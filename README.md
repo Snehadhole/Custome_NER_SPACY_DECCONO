@@ -1,4 +1,4 @@
-# Custome_NER_SPACY_DECCONO
+# Custome-NER-SPACY-DECCONO
 
 The Following are the steps for train the ner on our own dataset .
 
