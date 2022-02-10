@@ -83,7 +83,7 @@ optimizer = nlp.begin_training()
           
 9)text = '' #write text for testing
 
-10)test the model /n
+10)test the model     
 doc = nlp(text)
 for ent in doc.ents:
     print(ent.text,ent.label_)
