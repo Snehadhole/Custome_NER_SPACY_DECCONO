@@ -74,10 +74,10 @@ if you want to train on pretained model then simply replace 'blank' with 'load'
 7)# Train the model
 optimizer = nlp.begin_training()
 
-8)for i in range(170):
-  for text, annotations in data:
-      # print(text,annotations)
-      if len(text) > 0:
+8)for i in range(170):  
+  for text, annotations in data:  
+      # print(text,annotations)  
+      if len(text) > 0:  
           nlp.update([text], [annotations], sgd=optimizer)
           
           
