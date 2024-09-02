@@ -36,7 +36,7 @@ In another terminal, run the following command:
 ```
 doccano task
 ```
-and go to  [bh ](http://127.0.0.1:8000/ )
+and go to  [http://127.0.0.1:8000/](http://127.0.0.1:8000/ )
 It open the doccano app . Follow the below steps for annotation
 1)go to labels from the right side bar and add the label e.g skill,course
 2)go to the dataset option from right side panel , action - import dataset -ingest - annotate
