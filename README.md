@@ -7,12 +7,6 @@ The Following are the steps for train the ner on our own dataset .
 3. Test
 
 
-1. **Numbered List:** 
-   - Use `1.`, `2.`, and `3.` to create a numbered list in Markdown.
-  
-2. **Bold Headers for Each Step:**
-   - `###` is used to create headers for each step. This makes the steps stand out and easy to follow.
-  
 
 # ANNOTATION 
 for annotation we are using DECCODO .
@@ -21,21 +15,28 @@ Doccano is an open source application designed to make the text annotation or te
 Doccano can be used for a range of text annotation, text classification and labeling tasks for Natural Language Processing projects. These include sequence labeling for Named Entity Recognition (NER), part-of-speech (POS) tagging, and semantic role labeling; Sequence to Sequence tasks, such as string translation; Document Classification, for things like sentiment analysis, and even speech to text audio classification.
 
 #To install doccano, simply run:
+```
 pip install doccano
-
+```
 After installation, run the following commands:
 
 #Initialize database.
+```
 doccano init
+```
 #Create a super user.
+```
 doccano createuser --username admin --password pass
+```
 #Start a web server.
+```
 doccano webserver --port 8000
-
+```
 In another terminal, run the following command:
+```
 doccano task
-
-and go to  http://127.0.0.1:8000/ 
+```
+and go to  [bh ](http://127.0.0.1:8000/ )
 It open the doccano app . Follow the below steps for annotation
 1)go to labels from the right side bar and add the label e.g skill,course
 2)go to the dataset option from right side panel , action - import dataset -ingest - annotate
