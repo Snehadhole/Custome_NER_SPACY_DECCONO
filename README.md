@@ -2,8 +2,10 @@
 
 The Following are the steps for train the ner on our own dataset .
 
-1)Annotate the dataset   2)Train model
-3)Test 
+1. Annotate the dataset
+2. Train model
+3. Test
+
 
 1. **Numbered List:** 
    - Use `1.`, `2.`, and `3.` to create a numbered list in Markdown.
