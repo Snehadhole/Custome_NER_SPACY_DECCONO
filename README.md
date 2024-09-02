@@ -2,8 +2,7 @@
 
 The Following are the steps for train the ner on our own dataset .
 
-1)Annotate the dataset
-2)Train model
+1)Annotate the dataset   2)Train model
 3)Test 
 
 # ANNOTATION 
