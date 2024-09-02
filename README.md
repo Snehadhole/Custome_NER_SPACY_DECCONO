@@ -5,6 +5,13 @@ The Following are the steps for train the ner on our own dataset .
 1)Annotate the dataset   2)Train model
 3)Test 
 
+1. **Numbered List:** 
+   - Use `1.`, `2.`, and `3.` to create a numbered list in Markdown.
+  
+2. **Bold Headers for Each Step:**
+   - `###` is used to create headers for each step. This makes the steps stand out and easy to follow.
+  
+
 # ANNOTATION 
 for annotation we are using DECCODO .
 Doccano is an open source application designed to make the text annotation or text labeling process much quicker and easier for data scientists. It allows you to load up a dataset and then categorise or label it using a user-friendly web interface, and then output the results in a format that can be used in a range of NLP modeling platforms, such as Spacy.
